@@ -8,6 +8,15 @@
         "branch" : "main",
         "revision" : "92576110f6f4cd76a5971d9fffdb7cb9d0c6b105"
       }
+    },
+    {
+      "identity" : "openai-async-image-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/openai-async-image-swiftui.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e354d40092ae9a63d181177a973ff2482574de22"
+      }
     }
   ],
   "version" : 2

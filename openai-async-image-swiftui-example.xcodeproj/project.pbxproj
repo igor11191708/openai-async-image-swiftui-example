@@ -13,6 +13,7 @@
 		783CE14429A0C87800A88982 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783CE14329A0C87800A88982 /* Preview Assets.xcassets */; };
 		783D05B829AE2B2900C5D2B0 /* openai-async-image-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 783D05B729AE2B2900C5D2B0 /* openai-async-image-swiftui */; };
 		783D05BA29AE2B5100C5D2B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 783D05B929AE2B5100C5D2B0 /* README.md */; };
+		783D05C329AF609C00C5D2B0 /* sun_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 783D05C229AF609C00C5D2B0 /* sun_iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		783CE14129A0C87800A88982 /* openai_async_image_swiftui_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = openai_async_image_swiftui_example.entitlements; sourceTree = "<group>"; };
 		783CE14329A0C87800A88982 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		783D05B929AE2B5100C5D2B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		783D05C229AF609C00C5D2B0 /* sun_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_iphone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		783CE13A29A0C87600A88982 /* openai-async-image-swiftui-example */ = {
 			isa = PBXGroup;
 			children = (
+				783D05C129AF608300C5D2B0 /* img */,
 				783D05B929AE2B5100C5D2B0 /* README.md */,
 				783CE13B29A0C87600A88982 /* openai_async_image_swiftui_exampleApp.swift */,
 				783CE13D29A0C87600A88982 /* ContentView.swift */,
@@ -80,6 +83,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783D05C129AF608300C5D2B0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				783D05C229AF609C00C5D2B0 /* sun_iphone.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				783D05BA29AE2B5100C5D2B0 /* README.md in Resources */,
+				783D05C329AF609C00C5D2B0 /* sun_iphone.png in Resources */,
 				783CE14429A0C87800A88982 /* Preview Assets.xcassets in Resources */,
 				783CE14029A0C87800A88982 /* Assets.xcassets in Resources */,
 			);

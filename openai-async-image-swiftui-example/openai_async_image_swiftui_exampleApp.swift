@@ -9,19 +9,22 @@ import openai_async_image_swiftui
 
 @main
 struct openai_async_image_swiftui_exampleApp: App {
-    
-    @Environment(\.openAIDefaultLoader) var loader : OpenAIDefaultLoader
+   
+    init(){
+        initDefaultLoader()
+    }
     
     var body: some Scene {
-        
+        WindowGroup {
+            ContentView()
+                .preferredColorScheme(.dark)
+        }
+    }
+    
+    private func initDefaultLoader() {
         let apiKey = "your API KEY"
         let endpoint = OpenAIImageEndpoint.get(with: apiKey)
         let loader = OpenAIDefaultLoader(endpoint: endpoint)
-        
-        WindowGroup {
-            ContentView()
-                .environment(\.openAIDefaultLoader, loader)
-                .preferredColorScheme(.dark)
-        }
+        OpenAIDefaultLoaderKey.defaultValue = loader
     }
 }

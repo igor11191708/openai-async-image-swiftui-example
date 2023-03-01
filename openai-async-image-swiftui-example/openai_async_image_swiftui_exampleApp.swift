@@ -14,8 +14,8 @@ struct openai_async_image_swiftui_exampleApp: App {
     
     var body: some Scene {
         
-        let api = "your API KEY"
-        let endpoint = OpenAIImageEndpoint.get(with: api)
+        let apiKey = "your API KEY"
+        let endpoint = OpenAIImageEndpoint.get(with: apiKey)
         let loader = OpenAIDefaultLoader(endpoint: endpoint)
         
         WindowGroup {

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/The-Igor/async-http-client.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "92576110f6f4cd76a5971d9fffdb7cb9d0c6b105"
+        "revision" : "156bb8d3d5bfa6d983060b95c4d0a1d10de29e4b",
+        "version" : "1.4.0"
       }
     },
     {
@@ -15,7 +15,16 @@
       "location" : "https://github.com/The-Igor/openai-async-image-swiftui.git",
       "state" : {
         "branch" : "main",
-        "revision" : "9c31c110d2f42844863f3e99607b53e0230abbc9"
+        "revision" : "4706994391c99462d47e244f4f3dc387db9393ef"
+      }
+    },
+    {
+      "identity" : "retry-policy-service",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/retry-policy-service.git",
+      "state" : {
+        "revision" : "46ded002161a95c6b08ddd02c3f319891c773d14",
+        "version" : "1.0.0"
       }
     }
   ],

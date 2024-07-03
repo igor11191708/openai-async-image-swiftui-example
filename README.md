@@ -1,6 +1,7 @@
 # OpenAI AsyncImage SwiftUI
 
 SwiftUI view that asynchronously loads and displays an OpenAI image from open API
+
  ![OpenAI AsyncImage SwiftUI](https://github.com/The-Igor/openai-async-image-swiftui/blob/main/image/sun_watch.png) 
 
 ## Features

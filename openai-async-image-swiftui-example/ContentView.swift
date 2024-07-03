@@ -6,6 +6,7 @@
 //
 
 import openai_async_image_swiftui
+import async_http_client
 import SwiftUI
 
 struct ContentView: View {
@@ -21,7 +22,7 @@ struct ContentView: View {
                 image
                     .resizable()
                     .scaledToFill()
-                case .loadError(let error) : Text(error.localizedDescription)
+                case .loadError(let error) : Text(handleError(error))
                 case .loading : ProgressView()
             }
         }
@@ -68,4 +69,15 @@ fileprivate struct RoundedTextFieldStyle: TextFieldStyle {
             )
             .clipShape(Capsule(style: .continuous))
     }
+}
+
+// Example function to handle the error
+fileprivate func handleError(_ error: Error) -> String {
+    if case let Http.Errors.status(statusCode, response, data) = error {
+        if let responseData = data, let responseString = String(data: responseData, encoding: .utf8) {
+            return responseString
+        }
+    }
+    
+    return error.localizedDescription
 }

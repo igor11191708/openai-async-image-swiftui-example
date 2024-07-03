@@ -1,4 +1,5 @@
 {
+  "originHash" : "2e167b064efe8c34be9109bc23f0bf95eb95c8be0d3b9f07652a29ea0f223ebe",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -15,7 +16,7 @@
       "location" : "https://github.com/The-Igor/openai-async-image-swiftui.git",
       "state" : {
         "branch" : "main",
-        "revision" : "22fea7762c7c41772c265be922add98768ad8e70"
+        "revision" : "eb1a284c69769843f28237a6f3cbea9da9a28271"
       }
     },
     {
@@ -28,5 +29,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

@@ -72,6 +72,7 @@ fileprivate struct RoundedTextFieldStyle: TextFieldStyle {
 }
 
 // Example function to handle the error
+// TODO: encapsulate it in the component
 fileprivate func handleError(_ error: Error) -> String {
     if case let Http.Errors.status(_, _, data) = error {
         if let responseData = data, let responseString = String(data: responseData, encoding: .utf8) {

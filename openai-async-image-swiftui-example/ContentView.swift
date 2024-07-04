@@ -6,7 +6,6 @@
 //
 
 import openai_async_image_swiftui
-import async_http_client
 import SwiftUI
 
 struct ContentView: View {

@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var text: String = "Sun"
+    
     @State var imageText: String = "Sun"
 
     var customImageTpl: some View {
@@ -21,7 +22,7 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFill()
                 case .loadError(let error):
-                    Text(error.localizedDescription)
+                    TextWithLinks(inputString: error.localizedDescription)
                         .padding()
                 case .loading:
                     ProgressView()

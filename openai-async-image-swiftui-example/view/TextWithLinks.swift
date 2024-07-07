@@ -62,8 +62,14 @@ fileprivate func detectAndSplitLinks(from input: String) -> [String] {
             let textRange = NSRange(location: lastRange.location + lastRange.length, length: result.range.location - (lastRange.location + lastRange.length))
             parts.append(nsString.substring(with: textRange))
         }
-        // Add the link
-        parts.append(nsString.substring(with: result.range))
+        
+        // Add the link, removing trailing dot if it exists
+        var link = nsString.substring(with: result.range)
+        if link.hasSuffix(".") {
+            link.removeLast()
+        }
+        parts.append(link)
+        
         lastRange = result.range
     }
     

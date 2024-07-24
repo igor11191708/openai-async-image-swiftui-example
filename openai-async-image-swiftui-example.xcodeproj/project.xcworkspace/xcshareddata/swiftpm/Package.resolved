@@ -16,7 +16,7 @@
       "location" : "https://github.com/The-Igor/openai-async-image-swiftui.git",
       "state" : {
         "branch" : "main",
-        "revision" : "cbe62bceb22be14be0d645e61bce485207ae8f3f"
+        "revision" : "a8bf018e2a3e6c9971e429b6655b10784c5fb5e7"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/The-Igor/retry-policy-service.git",
       "state" : {
-        "revision" : "46ded002161a95c6b08ddd02c3f319891c773d14",
-        "version" : "1.0.0"
+        "revision" : "2a6a1f057fbf77337dfc73db98bd3d538127b3e2",
+        "version" : "1.0.1"
       }
     }
   ],

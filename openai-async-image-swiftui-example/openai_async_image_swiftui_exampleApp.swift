@@ -10,21 +10,24 @@ import openai_async_image_swiftui
 @main
 struct openai_async_image_swiftui_exampleApp: App {
    
-    init(){
-        initDefaultLoader()
+    @State private var defaultLoader: OpenAIDefaultLoader
+
+    init() {
+        // WARNING: Do not hardcode API keys directly in your source code.
+        // This is just an example. Use secure storage like Keychain instead.
+        let apiKey = "Your APIKey"
+        let endpoint = OpenAIImageEndpoint.get(with: apiKey)
+        _defaultLoader = State(initialValue: OpenAIDefaultLoader(endpoint: endpoint))
     }
     
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.openAIDefaultLoader, defaultLoader)
                 .preferredColorScheme(.dark)
         }
     }
-    
-    private func initDefaultLoader() {
-        let apiKey = "your API KEY"
-        let endpoint = OpenAIImageEndpoint.get(with: apiKey)
-        let loader = OpenAIDefaultLoader(endpoint: endpoint)
-        OpenAIDefaultLoaderKey.defaultValue = loader
-    }
 }
+
+// WARNING: Hardcoding API keys in the source code is insecure.
+// Consider using a secure method such as Apple Keychain to store and retrieve sensitive information.

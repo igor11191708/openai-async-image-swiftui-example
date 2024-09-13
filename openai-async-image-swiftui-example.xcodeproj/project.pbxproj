@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7817D4EB2C946AB900C1B686 /* openai-async-image-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 7817D4EA2C946AB900C1B686 /* openai-async-image-swiftui */; };
 		783CE13C29A0C87600A88982 /* openai_async_image_swiftui_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CE13B29A0C87600A88982 /* openai_async_image_swiftui_exampleApp.swift */; };
 		783CE13E29A0C87600A88982 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CE13D29A0C87600A88982 /* ContentView.swift */; };
 		783CE14029A0C87800A88982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783CE13F29A0C87800A88982 /* Assets.xcassets */; };
 		783CE14429A0C87800A88982 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783CE14329A0C87800A88982 /* Preview Assets.xcassets */; };
-		783D05B829AE2B2900C5D2B0 /* openai-async-image-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 783D05B729AE2B2900C5D2B0 /* openai-async-image-swiftui */; };
 		783D05BA29AE2B5100C5D2B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 783D05B929AE2B5100C5D2B0 /* README.md */; };
 		783D05C329AF609C00C5D2B0 /* sun_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 783D05C229AF609C00C5D2B0 /* sun_iphone.png */; };
 		78976E202C3AE11F00791CC3 /* TextWithLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78976E1F2C3AE11F00791CC3 /* TextWithLinks.swift */; };
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783D05B829AE2B2900C5D2B0 /* openai-async-image-swiftui in Frameworks */,
+				7817D4EB2C946AB900C1B686 /* openai-async-image-swiftui in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 			);
 			name = "openai-async-image-swiftui-example";
 			packageProductDependencies = (
-				783D05B729AE2B2900C5D2B0 /* openai-async-image-swiftui */,
+				7817D4EA2C946AB900C1B686 /* openai-async-image-swiftui */,
 			);
 			productName = "openai-async-image-swiftui-example";
 			productReference = 783CE13829A0C87600A88982 /* openai-async-image-swiftui-example.app */;
@@ -135,7 +135,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					783CE13729A0C87600A88982 = {
 						CreatedOnToolsVersion = 14.2;
@@ -152,7 +152,7 @@
 			);
 			mainGroup = 783CE12F29A0C87600A88982;
 			packageReferences = (
-				783D05B629AE2B2900C5D2B0 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */,
+				7817D4E92C946AB900C1B686 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */,
 			);
 			productRefGroup = 783CE13929A0C87600A88982 /* Products */;
 			projectDirPath = "";
@@ -224,9 +224,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -282,9 +284,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -309,6 +313,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"openai-async-image-swiftui-example/Preview Content\"";
 				DEVELOPMENT_TEAM = FZ42RW4USG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -350,6 +355,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"openai-async-image-swiftui-example/Preview Content\"";
 				DEVELOPMENT_TEAM = FZ42RW4USG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -406,9 +412,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		783D05B629AE2B2900C5D2B0 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */ = {
+		7817D4E92C946AB900C1B686 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/openai-async-image-swiftui.git";
+			repositoryURL = "https://github.com/igor11191708/openai-async-image-swiftui";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -417,9 +423,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		783D05B729AE2B2900C5D2B0 /* openai-async-image-swiftui */ = {
+		7817D4EA2C946AB900C1B686 /* openai-async-image-swiftui */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 783D05B629AE2B2900C5D2B0 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */;
+			package = 7817D4E92C946AB900C1B686 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */;
 			productName = "openai-async-image-swiftui";
 		};
 /* End XCSwiftPackageProductDependency section */

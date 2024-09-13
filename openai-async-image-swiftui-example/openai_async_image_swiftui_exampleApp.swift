@@ -28,6 +28,3 @@ struct openai_async_image_swiftui_exampleApp: App {
         }
     }
 }
-
-// WARNING: Hardcoding API keys in the source code is insecure.
-// Consider using a secure method such as Apple Keychain to store and retrieve sensitive information.

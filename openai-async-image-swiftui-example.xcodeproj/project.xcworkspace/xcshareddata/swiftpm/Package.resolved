@@ -1,22 +1,22 @@
 {
-  "originHash" : "2e167b064efe8c34be9109bc23f0bf95eb95c8be0d3b9f07652a29ea0f223ebe",
+  "originHash" : "9a83f65f7115b3ad0aecf69b26ad6e9d6cbd9eebb6c140e3ae3ac93b84551f5b",
   "pins" : [
     {
       "identity" : "async-http-client",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/The-Igor/async-http-client.git",
       "state" : {
-        "revision" : "8be7d1c1f036350a8109b075052a71d3353ad366",
-        "version" : "1.4.4"
+        "revision" : "9a56240b21baff71f5399194a1f2af9ab8c4c076",
+        "version" : "1.4.6"
       }
     },
     {
       "identity" : "openai-async-image-swiftui",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/The-Igor/openai-async-image-swiftui.git",
+      "location" : "https://github.com/igor11191708/openai-async-image-swiftui",
       "state" : {
         "branch" : "main",
-        "revision" : "a8bf018e2a3e6c9971e429b6655b10784c5fb5e7"
+        "revision" : "aeda73110c177e4be7c6829485bb0d9a76419723"
       }
     },
     {

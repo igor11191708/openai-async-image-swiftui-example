@@ -14,6 +14,7 @@
 		783D05BA29AE2B5100C5D2B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 783D05B929AE2B5100C5D2B0 /* README.md */; };
 		783D05C329AF609C00C5D2B0 /* sun_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 783D05C229AF609C00C5D2B0 /* sun_iphone.png */; };
 		785C65B92C9DE0E600F94362 /* openai-async-image-swiftui in Frameworks */ = {isa = PBXBuildFile; productRef = 785C65B82C9DE0E600F94362 /* openai-async-image-swiftui */; };
+		786795EF2CF5D14500352F7A /* RoundedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786795EE2CF5D14300352F7A /* RoundedTextFieldStyle.swift */; };
 		78976E202C3AE11F00791CC3 /* TextWithLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78976E1F2C3AE11F00791CC3 /* TextWithLinks.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		783CE14329A0C87800A88982 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		783D05B929AE2B5100C5D2B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		783D05C229AF609C00C5D2B0 /* sun_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_iphone.png; sourceTree = "<group>"; };
+		786795EE2CF5D14300352F7A /* RoundedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextFieldStyle.swift; sourceTree = "<group>"; };
 		78976E1F2C3AE11F00791CC3 /* TextWithLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithLinks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 		783CE13A29A0C87600A88982 /* openai-async-image-swiftui-example */ = {
 			isa = PBXGroup;
 			children = (
+				786795ED2CF5D13A00352F7A /* helper */,
 				78976E212C3AE23000791CC3 /* view */,
 				783D05C129AF608300C5D2B0 /* img */,
 				783D05B929AE2B5100C5D2B0 /* README.md */,
@@ -94,6 +97,14 @@
 				783D05C229AF609C00C5D2B0 /* sun_iphone.png */,
 			);
 			path = img;
+			sourceTree = "<group>";
+		};
+		786795ED2CF5D13A00352F7A /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				786795EE2CF5D14300352F7A /* RoundedTextFieldStyle.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 		78976E212C3AE23000791CC3 /* view */ = {
@@ -183,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78976E202C3AE11F00791CC3 /* TextWithLinks.swift in Sources */,
+				786795EF2CF5D14500352F7A /* RoundedTextFieldStyle.swift in Sources */,
 				783CE13E29A0C87600A88982 /* ContentView.swift in Sources */,
 				783CE13C29A0C87600A88982 /* openai_async_image_swiftui_exampleApp.swift in Sources */,
 			);

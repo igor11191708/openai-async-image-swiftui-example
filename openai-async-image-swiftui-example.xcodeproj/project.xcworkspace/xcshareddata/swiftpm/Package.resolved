@@ -4,7 +4,7 @@
     {
       "identity" : "async-http-client",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/The-Igor/async-http-client.git",
+      "location" : "https://github.com/igor11191708/async-http-client.git",
       "state" : {
         "revision" : "94d2573c14bb6b88110338a0f4f4cd7b0c6f3165",
         "version" : "1.4.7"
@@ -16,7 +16,7 @@
       "location" : "https://github.com/igor11191708/openai-async-image-swiftui",
       "state" : {
         "branch" : "main",
-        "revision" : "cd337d7890a0e05d366558df996130faa912a518"
+        "revision" : "dbebdad486a9927241a83c690aff077b1fac146f"
       }
     },
     {

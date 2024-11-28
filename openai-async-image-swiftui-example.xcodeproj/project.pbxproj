@@ -426,7 +426,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		785C65B72C9DE0E600F94362 /* XCRemoteSwiftPackageReference "openai-async-image-swiftui" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/igor11191708/openai-async-image-swiftui";
+			repositoryURL = "https://github.com/swiftuiux/openai-async-image-swiftui";
 			requirement = {
 				branch = main;
 				kind = branch;

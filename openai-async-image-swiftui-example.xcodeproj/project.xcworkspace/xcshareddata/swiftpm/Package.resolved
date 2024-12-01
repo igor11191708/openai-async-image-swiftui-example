@@ -1,5 +1,5 @@
 {
-  "originHash" : "74a14d708302ae20eda46458c1d0dec0ce644bb1c02098655d93dd55c869a1ec",
+  "originHash" : "b332b0b67db8e21a35ddb3bb3ffc1f8c81260d80c5cc937fe052fba1b1d41120",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -11,12 +11,12 @@
       }
     },
     {
-      "identity" : "openai-async-image-swiftui",
+      "identity" : "async-task",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftuiux/openai-async-image-swiftui",
+      "location" : "https://github.com/swiftuiux/async-task.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "d13ebdb425e2b81cddc4e0b700d548599bdbce5a"
+        "revision" : "0e10077166d3b79d6fdffe4542ffc0196f63954f",
+        "version" : "1.2.3"
       }
     },
     {

@@ -30,18 +30,11 @@ struct ContentView: View {
         }
     }
     
-    var defaultImageTpl: some View {
-        OpenAIAsyncImage(prompt: .constant("Sun"))
-            .frame(width: 125, height: 125)
-            .padding(.top, 75)
-            .padding(.trailing, 20)
-    }
-    
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                defaultImageTpl
+                defaultImageTpl()
             }
             Spacer()
             TextField("Enter text", text: $text)
@@ -57,4 +50,14 @@ struct ContentView: View {
         .background(customImageTpl)
         .ignoresSafeArea()
     }
+}
+
+// MARK: - Fileprivate
+
+@ViewBuilder
+fileprivate func defaultImageTpl() -> some View {
+    OpenAIAsyncImage(prompt: .constant("Sun"))
+        .frame(width: 125, height: 125)
+        .padding(.top, 75)
+        .padding(.trailing, 20)
 }

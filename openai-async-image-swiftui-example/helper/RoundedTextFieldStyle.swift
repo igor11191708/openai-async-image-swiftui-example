@@ -2,7 +2,7 @@
 //  RoundedTextFieldStyle.swift
 //  openai-async-image-swiftui-example
 //
-//  Created by Igor  on 26.11.24.
+//  Created by Igor on 26.11.24.
 //
 
 import SwiftUI

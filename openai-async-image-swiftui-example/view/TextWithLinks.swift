@@ -2,7 +2,7 @@
 //  TextWithLinks.swift
 //  openai-async-image-swiftui-example
 //
-//  Created by Igor  on 07.07.24.
+//  Created by Igor on 07.07.24.
 //
 
 import SwiftUI
